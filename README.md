@@ -10,18 +10,32 @@ My goal is not only to learn cybersecurity concepts, but to apply them in practi
 
 ---
 
+## 📖 One Organization, One Story
+
+All six projects take place in the same fictional organization: **ShayVis Ltd**, a ~60-employee company with an office network, a Windows domain, and a Linux server hosting a customer-facing web portal.
+
+Throughout my training, I take the role of its first security practitioner:
+
+**🏗️ Build it → 🎯 Test it → 🛡️ Monitor it → 🚨 Respond → ⚙️ Automate → 📊 Report**
+
+Each project builds on the environment and findings of the previous one, so design decisions, findings, detections, and lessons learned can be traced across the entire portfolio.
+
+> ShayVis Ltd is fictional. All work is performed in an isolated lab environment that I own.
+
+---
+
 ## 🗺️ Portfolio Roadmap
 
 My portfolio is organized around six major hands-on projects that will be developed progressively as I advance through my cybersecurity training.
 
-| # | Project | Focus | Status |
-|---|---|---|---|
-| 01 | 🏗️ **Secure Infrastructure Lab** | Network, Linux & Windows/AD security | 🚧 In Progress |
-| 02 | 🎯 **Offensive Security & Vulnerability Assessment Lab** | Security testing, vulnerability assessment & remediation | 📌 Planned |
-| 03 | 🛡️ **SOC & Detection Engineering Lab** | Monitoring, detection, SIEM & threat investigation | 📌 Planned |
-| 04 | 🚨 **Incident Response & Digital Forensics Lab** | Incident investigation, evidence & response | 📌 Planned |
-| 05 | ⚙️ **Security Automation Toolkit** | Python & Bash security automation | 📌 Planned |
-| 06 | 🔐 **Cybersecurity Capstone** | Integrated security assessment, defense & response | 📌 Planned |
+| # | Project | Focus | Role in the story | Status |
+|---|---|---|---|---|
+| 01 | 🏗️ **[Secure Infrastructure Lab](https://github.com/ShayVishner/01-secure-infrastructure-lab)** | Network, Linux & Windows/AD security | Build a secure environment | 🚧 In Progress |
+| 02 | 🎯 **Offensive Security & Vulnerability Assessment Lab** | Security testing, vulnerability assessment & remediation | Test it as an attacker would | 📌 Planned |
+| 03 | 🛡️ **SOC & Detection Engineering Lab** | Monitoring, detection, SIEM & threat investigation | Detect what can't be prevented | 📌 Planned |
+| 04 | 🚨 **Incident Response & Digital Forensics Lab** | Incident investigation, evidence & response | Investigate and recover from an incident | 📌 Planned |
+| 05 | ⚙️ **Security Automation Toolkit** | Python & Bash security automation | Automate recurring security tasks | 📌 Planned |
+| 06 | 🔐 **Cybersecurity Capstone** | Integrated security assessment, defense & response | Review the year and report to management | 📌 Planned |
 
 > The portfolio will evolve alongside my training. Projects, technologies, and documentation will be added as I gain hands-on experience with them.
 
@@ -31,13 +45,34 @@ My portfolio is organized around six major hands-on projects that will be develo
 
 ### 🏗️ Project 01 — Secure Infrastructure Lab
 
-My first portfolio project focuses on learning how to build, understand, and progressively secure a small IT infrastructure.
+My first portfolio project focuses on learning how to build, understand, and progressively secure ShayVis's IT infrastructure.
 
-The project will develop alongside my studies and will incorporate relevant networking, Linux, and Windows security concepts as they are learned.
+The project will develop alongside my studies in three milestones, each completed and documented on its own:
+
+| Milestone | Scope | Aligned with | Status |
+|---|---|---|---|
+| 01-A · Linux Server Hardening | Linux web server: users & permissions, services, logging, hardening and audit script | Linux Essentials | 🚧 In Progress |
+| 01-B · Secure Network Design | Network segmentation, VLANs, ACLs, Layer 2 security | Networking | 📌 Planned |
+| 01-C · Windows & Active Directory Hardening | Domain design, Group Policy, password and audit policies | Windows Server & AD | 📌 Planned |
 
 **Status:** 🚧 In Progress
 
-Technical documentation and project repository will be added as the lab develops.
+📂 **Repository:** [01-secure-infrastructure-lab](https://github.com/ShayVishner/01-secure-infrastructure-lab)
+
+---
+
+## 🎓 From Course to Practice
+
+My goal is to show not only what I studied, but how I applied it.
+
+A **Course-to-Practice matrix** will map each training module to:
+
+- what was covered in class
+- where I applied it in the portfolio
+- what I explored independently, beyond the course material
+- the supporting evidence
+
+The matrix will be published here once the first module is completed, and updated after each module.
 
 ---
 
@@ -74,6 +109,7 @@ Each project is intended to include:
 - 🛠️ Remediation and improvements
 - 💡 Lessons learned
 - 📋 Known limitations
+- 🧭 What I added beyond the course material
 
 ---
 
